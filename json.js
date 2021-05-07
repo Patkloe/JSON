@@ -6,5 +6,8 @@ var test = {
            }
           }
      test.action();
-     var rec = Object.keys(test);
+     var rec = Object.keys(test);   // on recupere les keys de l'objet, le resultat sous forme de tableau
+     var val = Object.values(test);  // on recupere les valeurs de l'objet, le resultat sous forme de tableau.
      rec;
+     
+     console.log("valeurs objets" + " " + val);
